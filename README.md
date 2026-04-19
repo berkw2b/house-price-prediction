@@ -62,8 +62,17 @@ In this project, we predict house prices using a wide range of regression models
 SHAP (SHapley Additive exPlanations) was used to explain the model predictions and to understand which features have the greatest impact on price.
 
 ![SHAP1](./plots/shap_summary_plot_-_random_forest.png) 
+
+---
+
 ![SHAP2](./plots/shap_feature_importance_ranking.png)
+
+---
+
 ![SHAP3](plots/shap_values_for_example.png)  
+
+---
+
 ## About the quality of the dataset:  
 The dataset is almost certainly synthetic. In real-world real estate data, location and neighborhood quality are among the strongest price drivers yet here their correlation with price is effectively zero. Perfect normal distributions across all features and a near-perfect linear relationship between area and price further support this conclusion.
 
