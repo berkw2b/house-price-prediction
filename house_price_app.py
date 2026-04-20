@@ -187,7 +187,7 @@ with tab1:
     def highlight_best(row):
         best_r2 = results_df["R²"].max()
         if row["R²"] == best_r2:
-            return ["background-color: #d4edda; font-weight: bold"] * len(row)
+            return ["background-color: #ff6459; font-weight: bold"] * len(row)
         return [""] * len(row)
 
     st.dataframe(
