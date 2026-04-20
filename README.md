@@ -1,6 +1,7 @@
 # House Price Prediction
 
 **Dataset:** [Home Value Insights](https://www.kaggle.com/datasets/prokshitha/home-value-insights)
+* [Dashboard](https://berkw2b-house-price-prediction.streamlit.app/)
 
 In this project, we predict house prices using a wide range of regression models from linear approaches (Ridge, Lasso, Elastic Net) to tree-based and non-linear methods (Random Forest, XGBoost, KNN, SVR, ANN). The notebook covers the full ML pipeline: exploratory analysis, outlier detection, assumption checks, hyperparameter tuning, cross-validation, SHAP interpretability, and a final model comparison.
 
